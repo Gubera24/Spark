@@ -26,7 +26,7 @@ async def buypremium(bot, message):
 		           [
 				   InlineKeyboardButton("🪙 Silver", callback_data="vip1")
 				   ], [
-					InlineKeyboardButton("💫Gold", callback_data="vip2")
+					InlineKeyboardButton("💫 Gold", callback_data="vip2")
 				   ], [
 					InlineKeyboardButton("💎 Diamond", callback_data="vip3")
 					]]))
