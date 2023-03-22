@@ -32,7 +32,7 @@ currentTime = datetime.datetime.now()
 if currentTime.hour < 12:
     wish = "❤️ Good morning sweetheart ❤️"
 elif 12 <= currentTime.hour < 12:
-    wish = '🤍 Good afternoon my Love 🤍'
+    wish = '❤️‍🔥 Good afternoon my Love ❤️‍🔥'
 else:
     wish = '🦋 Good evening baby 🦋'
 
@@ -50,11 +50,11 @@ async def start(client, message):
         await message.reply_photo(photo=LAZY_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                      [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                      InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                      [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/+PVzgN_hNPNtkYmZl")],
+                                      [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/+IdM6pEM63JtmNjJl")],
+                                      [InlineKeyboardButton("Support Group", url='https://t.me/Tamilan24'),
+                                      InlineKeyboardButton("Movie Channel", url='https://t.me/+nKjgyOdlxbs1NDM1')],
+                                      [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='srinisathyasabarish@okaxis')]
                                       ]))
         return
     if id:
@@ -64,11 +64,11 @@ async def start(client, message):
                 await message.reply_photo(photo=LAZY_PIC,
                                          caption=txt,
                                          reply_markup=InlineKeyboardMarkup(
-                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                              [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                             InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                             [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/+PVzgN_hNPNtkYmZl")],
+                                              [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/+IdM6pEM63JtmNjJl")],
+                                              [InlineKeyboardButton("Support Group", url='https://t.me/Tamilan24'),
+                                             InlineKeyboardButton("Movie Channel", url='https://t.me/+nKjgyOdlxbs1NDM1')],
+                                             [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='url='srinisathyasabarish@okaxis'')]
                                           ]))
             except:
                 return
@@ -84,11 +84,11 @@ async def start(client, message):
 	**Document Or Video** and enter new filename to rename it__
 	""", reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/LazyDeveloper")],
-                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://youtube.com/@LazyDeveloperr")],
-                                          [InlineKeyboardButton("Support Group", url='https://t.me/LazyPrincessSupport'),
-                                          InlineKeyboardButton("Movie Channel", url='https://t.me/real_MoviesAdda2')],
-                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://p.paytm.me/xCTH/vo37hii9')]
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url="https://t.me/+PVzgN_hNPNtkYmZl")],
+                                          [InlineKeyboardButton("🦋 Subscribe us 🦋", url="https://t.me/+IdM6pEM63JtmNjJl")],
+                                          [InlineKeyboardButton("Support Group", url='https://t.me/Tamilan24'),
+                                          InlineKeyboardButton("Movie Channel", url='https://t.me/+nKjgyOdlxbs1NDM1')],
+                                          [InlineKeyboardButton("☕ Buy Me A Coffee ☕", url='https://t.me/+nKjgyOdlxbs1NDM1')]
                                           ]))
     
 
@@ -106,7 +106,7 @@ async def send_doc(client, message):
             await message.reply_text("**__You are not subscribed my channel__** ",
                                      reply_to_message_id=message.id,
                                      reply_markup=InlineKeyboardMarkup(
-                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/{update_channel}")]]))
+                                         [[InlineKeyboardButton("🔺 Update Channel 🔺", url=f"https://t.me/+PVzgN_hNPNtkYmZl")]]))
             await client.send_message(log_channel,f"🦋 #GangsterBaby_LOGS 🦋,\n\n**ID** : `{user_id}`\n**Name**: {message.from_user.first_name} {message.from_user.last_name}\n**User-Plan** : {user}\n\n ",
                                                                                                        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔺 Restrict User ( **pm** ) 🔺", callback_data="ceasepower")]]))
             return
